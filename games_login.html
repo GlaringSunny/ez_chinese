@@ -342,10 +342,14 @@ function logincheck() {
     //alert("correct password");
     alert("Welcome User "+enteredpwd);
     } else {
-    window.location.replace("https://glaringsunny.github.io/ez_chinese/games_login.html");
     alert("incorrect password");
+    location.reload();
+    //login V2
+    //window.location.replace("https://glaringsunny.github.io/ez_chinese/games_login.html");
+    //alert("incorrect password");
    }
 }
+
 
 var video = document.getElementById("myIMG");
 var modal = document.getElementById('id01');
